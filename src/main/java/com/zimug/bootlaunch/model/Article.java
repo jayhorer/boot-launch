@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by Jay on 20/12/13 - 10:03
@@ -22,4 +23,5 @@ public class Article {
     private String title;
     private Date createTime;
     private String content;
+    private List<Reader> reader;
 }
